@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Gradiente em CSS</title>
+
+            <style>
+                * { /*Configurações globais das CSS*/
+                    height: 100%;
+                }
+                body{ 
+                    /*background-image serve para fazer o degrade*/
+                    /*o 45deg é pra musar o angulo que o degrade aparece*/
+                    /*existe outras formas de utilizar, como to rigth, to left, to top, to bottom*/
+                    /*além disso, pode colocar a porcentagem que cada cor ocupa na tela*/
+                    background-image: linear-gradient(-45deg, #8F0AF9, #FD00D7, #FF0B59 , #FE9601, #FFC502);
+                    background-attachment: fixed;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Testando Gradientes</h1>
+        </body>
+    </html>
